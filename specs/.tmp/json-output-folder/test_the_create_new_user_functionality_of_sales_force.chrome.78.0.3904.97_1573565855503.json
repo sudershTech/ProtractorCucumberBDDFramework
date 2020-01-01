@@ -1,0 +1,147 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test the create new user functionality of sales force",
+    "line": 1,
+    "id": "test-the-create-new-user-functionality-of-sales-force",
+    "tags": [],
+    "uri": "features\\users.feature",
+    "elements": [
+      {
+        "id": "test-the-create-new-user-functionality-of-sales-force;create-new-user-in-salesforce",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Create new user in salesforce",
+        "tags": [
+          {
+            "name": "@global",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "StepDefinition\\userCreation.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is already logged in to salesforce account",
+            "match": {
+              "location": "StepDefinition\\userCreation.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20909000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User clicked on users tab",
+            "match": {
+              "location": "StepDefinition\\userCreation.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 536000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User clicked on users link",
+            "match": {
+              "location": "StepDefinition\\userCreation.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 235000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User clicked on new user button",
+            "match": {
+              "location": "StepDefinition\\userCreation.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20765000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User enters first name as \"Sudersh\" , last name as \"xyz\" , email as \"sud7@gmail.com\" in new user form",
+            "match": {
+              "location": "StepDefinition\\userCreation.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21268000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "User clicked on save button",
+            "match": {
+              "location": "StepDefinition\\userCreation.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24912000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "StepDefinition\\userCreation.js:13"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "..\\node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "78.0.3904.97"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]

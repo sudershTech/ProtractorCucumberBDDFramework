@@ -1,0 +1,194 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test the login functionality of sales force",
+    "line": 1,
+    "id": "test-the-login-functionality-of-sales-force",
+    "tags": [],
+    "uri": "features\\login.feature",
+    "elements": [
+      {
+        "id": "test-the-login-functionality-of-sales-force;successfull-login-salesforce-application-and-verify-dashboard-page-title",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Successfull login salesforce application and verify dashboard page title",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Launch browser and hit url of salesforce",
+            "match": {
+              "location": "StepDefinition\\loginSuccess.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20267000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User enters username as \"sudershs@interrait.com\"",
+            "match": {
+              "location": "StepDefinition\\loginSuccess.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 684000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User enters password as \"sudersh123\"",
+            "match": {
+              "location": "StepDefinition\\loginSuccess.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 412000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "StepDefinition\\loginSuccess.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5792000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Verify the page title of salesforce dashboard page",
+            "match": {
+              "location": "StepDefinition\\loginSuccess.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20030000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "..\\node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-the-login-functionality-of-sales-force;unsuccessfull-login-and-verify-error-message",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Unsuccessfull login and verify error message",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Launch browser and hit url of salesforce",
+            "match": {
+              "location": "StepDefinition\\loginSuccess.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 719000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "User enters username as \"sudershs@interrait.com\"",
+            "match": {
+              "location": "StepDefinition\\loginSuccess.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2220000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "User enters incorrect password as \"sudersh12\"",
+            "match": {
+              "location": "StepDefinition\\loginFail.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 342000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "StepDefinition\\loginSuccess.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 815000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "Verify the login failed error message",
+            "match": {
+              "location": "StepDefinition\\loginFail.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 123000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "..\\node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "78.0.3904.97"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]
